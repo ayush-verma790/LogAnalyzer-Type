@@ -1,11 +1,11 @@
-
+                                                                                                                                                         
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface RootState {
   input: string;
   queryHistory: string[];
   responseHistory: string[];
-  loading: boolean;
+  loading: boolean; 
 }
 
 const initialState: RootState = {
